@@ -10,7 +10,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-sqlalchemy = "^2.0.28"
+sqlalchemy = "^2.0.29"
 pydantic = "^2.3.0"
 pydantic-settings = "^2.0.3"
 
@@ -32,17 +32,17 @@ prometheus-client = "^0.20.0"
 gunicorn = "^21.2.0"
 flask = "^3.0.0"
 flask-admin = "^1.6.1"
-flask-security-too = "^5.4.2"
+flask-security-too = "^5.4.3"
 flask-caching = "^2.1.0"
 flask-babel = "^4.0.0"
 flask-sqlalchemy = "^3.1.1"
 psycopg2-binary = "^2.9.9"
-tablib = {extras = ["xlsx"], version = "^3.5.0"}
+tablib = {extras = ["xlsx"], version = "^3.6.0"}
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.3.4"
 mypy = "^1.7.1"
-pre-commit = "^3.6.0"
+pre-commit = "^3.7.0"
 
 [tool.ruff]
 fix = true
