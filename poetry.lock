@@ -706,13 +706,13 @@ pytz = ">=2022.7"
 
 [[package]]
 name = "flask-caching"
-version = "2.1.0"
+version = "2.2.0"
 description = "Adds caching support to Flask applications."
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "Flask-Caching-2.1.0.tar.gz", hash = "sha256:b7500c145135836a952e3de3a80881d9654e327a29c852c9265607f5c449235c"},
-    {file = "Flask_Caching-2.1.0-py3-none-any.whl", hash = "sha256:f02645a629a8c89800d96dc8f690a574a0d49dcd66c7536badc6d362ba46b716"},
+    {file = "Flask_Caching-2.2.0-py3-none-any.whl", hash = "sha256:5b74ad9e263cc3c5ac9c2d33c094eb99294b111ace78ccaa665d6b852b907e14"},
+    {file = "flask_caching-2.2.0.tar.gz", hash = "sha256:9d2d30ee02250c47c3650fd6781b79e92d5964d91382a3697e5ebaf77ca0ea4f"},
 ]
 
 [package.dependencies]
@@ -1915,13 +1915,13 @@ files = [
 
 [[package]]
 name = "sentry-sdk"
-version = "2.0.0"
+version = "2.0.1"
 description = "Python client for Sentry (https://sentry.io)"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "sentry_sdk-2.0.0-py2.py3-none-any.whl", hash = "sha256:15033ab12894b5a41a5b84a4fdf57229e196932b8a3c9b6b54a9a0d313127117"},
-    {file = "sentry_sdk-2.0.0.tar.gz", hash = "sha256:cf4a21ecb1d23bbcb17cc4124ef9b67aeecd4e7e4f0d3b256bc22f644b7974bc"},
+    {file = "sentry_sdk-2.0.1-py2.py3-none-any.whl", hash = "sha256:b54c54a2160f509cf2757260d0cf3885b608c6192c2555a3857e3a4d0f84bdb3"},
+    {file = "sentry_sdk-2.0.1.tar.gz", hash = "sha256:c278e0f523f6f0ee69dc43ad26dcdb1202dffe5ac326ae31472e012d941bee21"},
 ]
 
 [package.dependencies]
@@ -2344,4 +2344,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "837a9de0ba369c451587ab1bc04496ca80cf248674f4dc0d815ecca21f0e1eb4"
+content-hash = "6e59a4d7a13241520449f53b2971a544f4a8fccfc47852a5a7e9cc7e2894d781"
