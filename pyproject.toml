@@ -10,7 +10,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-sqlalchemy = "^2.0.29"
+sqlalchemy = "^2.0.30"
 pydantic = "^2.7.1"
 pydantic-settings = "^2.0.3"
 
@@ -22,9 +22,9 @@ loguru = "^0.7.2"
 sentry-sdk = {extras = ["loguru"], version = "^2.0.1"}
 aiohttp = {extras = ["speedups"], version = "^3.9.5"}
 uvloop = "^0.19.0"
-babel = "^2.13.1"
+babel = "^2.15.0"
 cachetools = "^5.3.2"
-orjson = "^3.10.2"
+orjson = "^3.10.3"
 alembic = "^1.13.1"
 prometheus-client = "^0.20.0"
 
@@ -33,14 +33,14 @@ gunicorn = "^22.0.0"
 flask = "^3.0.3"
 flask-admin = "^1.6.1"
 flask-security-too = "^5.4.3"
-flask-caching = "^2.2.0"
+flask-caching = "^2.3.0"
 flask-babel = "^4.0.0"
 flask-sqlalchemy = "^3.1.1"
 psycopg2-binary = "^2.9.9"
 tablib = {extras = ["xlsx"], version = "^3.6.1"}
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.4.2"
+ruff = "^0.4.3"
 mypy = "^1.10.0"
 pre-commit = "^3.7.0"
 
