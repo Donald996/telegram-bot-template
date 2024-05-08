@@ -24,6 +24,10 @@ async def add_user(
     language_code: str | None = user.language_code
     is_premium: bool = user.is_premium or False
 
+    # zh-hans -> zh
+    if language_code == "zh-hans":
+        language_code = "zh"
+
     new_user = UserModel(
         id=user_id,
         first_name=first_name,
@@ -87,12 +91,12 @@ async def is_admin(session: AsyncSession, user_id: int) -> bool:
 
     result = await session.execute(query)
 
-    is_admin = result.scalar_one_or_none()
-    return bool(is_admin)
+    is_admin_ = result.scalar_one_or_none()
+    return bool(is_admin_)
 
 
-async def set_is_admin(session: AsyncSession, user_id: int, is_admin: bool) -> None:
-    stmt = update(UserModel).where(UserModel.id == user_id).values(is_admin=is_admin)
+async def set_is_admin(session: AsyncSession, user_id: int, is_admin_: bool) -> None:
+    stmt = update(UserModel).where(UserModel.id == user_id).values(is_admin=is_admin_)
 
     await session.execute(stmt)
     await session.commit()
